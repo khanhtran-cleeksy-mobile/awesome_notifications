@@ -34,14 +34,14 @@ class ResourceImage extends ImageProvider<ResourceImage> {
   }
 
   @override
-  ImageStreamCompleter load(ResourceImage key, DecoderCallback decode) {
+  ImageStreamCompleter load(ResourceImage key, FileDecoderCallback decode) {
     return MultiFrameImageStreamCompleter(
       codec: _loadAsync(key, decode),
       scale: key.scale,
     );
   }
 
-  Future<ui.Codec> _loadAsync(ResourceImage key, DecoderCallback decode) async {
+  Future<ui.Codec> _loadAsync(ResourceImage key, FileDecoderCallback decode) async {
     assert(key == this);
     Uint8List? bytes;
 
@@ -66,3 +66,4 @@ class ResourceImage extends ImageProvider<ResourceImage> {
   String toString() =>
       '${objectRuntimeType(this, 'ResourceImage')}($drawablePath, scale: $scale)';
 }
+typedef FileDecoderCallback = Future<ui.Codec> Function(Uint8List);
