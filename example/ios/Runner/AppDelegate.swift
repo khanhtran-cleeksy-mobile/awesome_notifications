@@ -16,3 +16,19 @@ import awesome_notifications
       return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
+
+
+@available(iOS 10, *)
+extension AppDelegate {
+    override func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                         willPresent notification: UNNotification,
+                                         withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions)
+                                         -> Void) {
+        completionHandler([])
+    }
+    override func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                         didReceive response: UNNotificationResponse,
+                                         withCompletionHandler completionHandler: @escaping () -> Void) {
+        completionHandler()
+    }
+}
