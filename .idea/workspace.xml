@@ -7,22 +7,118 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f153b2-27cc-4b8f-8201-8a3571b86189" name="Changes" comment="">
+    <list default="true" id="90f153b2-27cc-4b8f-8201-8a3571b86189" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/common_widgets/simple_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/common_widgets/simple_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/AwesomeNotifications.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/AwnCore/Classes/AwesomeNotifications.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main_complete.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main_complete.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/AwesomeNotifications.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/AwesomeNotificationsExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/Definitions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/background/BackgroundExecutor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/background/SilentActionRequest.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/broadcasters/receivers/AwesomeEventsReceiver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/broadcasters/receivers/AwesomeExceptionReceiver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/broadcasters/receivers/DismissedNotificationReceiver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/broadcasters/receivers/NotificationActionReceiver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/broadcasters/receivers/RefreshSchedulesReceiver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/broadcasters/senders/BroadcastSender.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/builders/NotificationBuilder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/databases/SQLitePrimitivesDB.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/ActionType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/DefaultRingtoneType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/GroupAlertBehaviour.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/GroupSort.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/MediaSource.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/NotificationImportance.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/NotificationLayout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/NotificationLifeCycle.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/NotificationPermission.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/NotificationPrivacy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/NotificationSource.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/enumerators/TimeAndDate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/exceptions/AwesomeNotificationsException.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/exceptions/ExceptionCode.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/exceptions/ExceptionFactory.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/AwesomeContentExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/AwesomeServiceExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/BundleExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/DateExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/FormatterExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/NotificationAttatchment.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/RealDateTime.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/RegexExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/StringExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/UNCrontabNotificationTrigger.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/extensions/UNMutableNotificationContentExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/externalLibs/CronExpression.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/externalLibs/MD5.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/externalLibs/SyncronizedArray.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/externalLibs/TreeSet.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/listeners/AwesomeActionEventListener.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/listeners/AwesomeEventListener.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/listeners/AwesomeExceptionListener.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/listeners/AwesomeLifeCycleEventListener.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/listeners/AwesomeNotificationEventListener.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/logs/Logger.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/ActionManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/BadgeManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/CancellationManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/ChannelManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/CreatedManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/DefaultsManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/DismissedManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/DisplayedManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/LifeCycleManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/LocalizationManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/PermissionManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/ScheduleManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/SharedManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/managers/StatusBarManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/AbstractModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/NotificationButtonModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/NotificationCalendarModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/NotificationChannelModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/NotificationContentModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/NotificationIntervalModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/NotificationLocalizationModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/NotificationModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/NotificationScheduleModel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/returnedData/ActionReceived.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/models/returnedData/NotificationReceived.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/services/BackgroundService.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/threads/NotificationSenderAndScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/AudioUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/BitmapUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/BooleanUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/CronUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/DateUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/DoubleUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/EnumUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/FloatUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/IntUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/JsonUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/ListUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/Log.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/MapUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/MediaUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/StringUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/SwiftUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/AwnCore/Classes/utils/TimeZoneUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/AwesomeNotificationsPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/AwesomeNotificationsPlugin.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/lib/DartAwesomeNotificationsExtension.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/lib/DartBackgroundExecutor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/lib/FlutterAudioUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/lib/FlutterBitmapUtils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/lib/SwiftAwesomeNotificationsPlugin.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Scripts/AwesomeFcmPodFile.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/awesome_notifications.podspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +144,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0a55c16f-9cc5-43f3-a656-9cb29e360b22" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CHANGELOG.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -58,9 +157,6 @@
     <setting file="file://$PROJECT_DIR$/example/lib/main_complete.dart" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/example/lib/notifications/notifications_controller.dart" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/example/pubspec.yaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ios/AwnCore/Classes/broadcasters/senders/BroadcastSender.swift" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ios/AwnCore/Classes/managers/DefaultsManager.swift" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ios/awesome_notifications.podspec" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lib/awesome_notifications.dart" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lib/awesome_notifications_empty.dart" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lib/awesome_notifications_method_channel.dart" root0="FORCE_HIGHLIGHTING" />
@@ -236,6 +332,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664150949332</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1712649097297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649097297</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +352,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
