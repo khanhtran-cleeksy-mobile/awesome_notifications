@@ -33,7 +33,6 @@ class ResourceImage extends ImageProvider<ResourceImage> {
     return SynchronousFuture<ResourceImage>(this);
   }
 
-  @override
   ImageStreamCompleter load(ResourceImage key, FileDecoderCallback decode) {
     return MultiFrameImageStreamCompleter(
       codec: _loadAsync(key, decode),
@@ -41,7 +40,8 @@ class ResourceImage extends ImageProvider<ResourceImage> {
     );
   }
 
-  Future<ui.Codec> _loadAsync(ResourceImage key, FileDecoderCallback decode) async {
+  Future<ui.Codec> _loadAsync(
+      ResourceImage key, FileDecoderCallback decode) async {
     assert(key == this);
     Uint8List? bytes;
 
@@ -60,10 +60,11 @@ class ResourceImage extends ImageProvider<ResourceImage> {
   }
 
   @override
-  int get hashCode => hashValues(drawablePath.hashCode, scale);
+  int get hashCode => Object.hash(drawablePath.hashCode, scale);
 
   @override
   String toString() =>
       '${objectRuntimeType(this, 'ResourceImage')}($drawablePath, scale: $scale)';
 }
+
 typedef FileDecoderCallback = Future<ui.Codec> Function(Uint8List);
