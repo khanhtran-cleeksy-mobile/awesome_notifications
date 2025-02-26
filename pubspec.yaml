@@ -44,8 +44,6 @@ flutter:
       android:
         package: me.carda.awesome_notifications
         pluginClass: AwesomeNotificationsPlugin
-      ios:
-        pluginClass: AwesomeNotificationsPlugin
       linux:
         pluginClass: AwesomeNotificationsPlugin
       macos:
